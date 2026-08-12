@@ -7,6 +7,11 @@
 
 This site is a single-page profile plus occasional writing at /blog/.
 
+## Interests
+
+Persona simulation and adversarial persona vectors. Recursive self-improvement.
+Agent behavior analysis. Scaling agent verifiability.
+
 ## Research
 
 - [LH-Bench](https://arxiv.org/abs/2603.22744): Skill-Grounded Evaluation of Long-Horizon
@@ -16,6 +21,10 @@ This site is a single-page profile plus occasional writing at /blog/.
 - [SimHub whitepaper](https://simhub.so/whitepaper): continual-learning and evaluation
   harness for agents in production.
 - EnterpriseSWE: enterprise software-engineering environments for agents (forthcoming).
+
+## Service
+
+- Judge, Agent Forge Mini Hackathon (2026): https://luma.com/agentforgesf
 
 ## Identity
 
