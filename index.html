@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abhishek Chandwani</title>
+<meta name="description" content="Co-founder of Metaphi AI. Reinforcement-learning environments and evaluation infrastructure for long-horizon enterprise agents.">
+<meta property="og:title" content="Abhishek Chandwani">
+<meta property="og:description" content="RL environments and evaluation infrastructure for long-horizon enterprise agents.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://abhishekchandwani.com">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111113'/%3E%3Ctext x='32' y='42' font-family='Menlo,monospace' font-size='26' fill='%23e8e6e1' text-anchor='middle'%3Eac%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #fdfdfc;
+    --ink: #1a1a1c;
+    --muted: #6e6e73;
+    --line: #e4e2dd;
+    --accent: #0f4d3a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111113;
+      --ink: #e8e6e1;
+      --muted: #98979b;
+      --line: #29292c;
+      --accent: #7fc8a9;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 1.0625rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.005em;
+    padding: clamp(3rem, 10vh, 7rem) 1.5rem 4rem;
+  }
+  main { max-width: 38rem; margin: 0 auto; }
+  h1 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .role { color: var(--muted); margin-top: 0.2rem; }
+  .intro { margin-top: 2.25rem; }
+  .intro p + p { margin-top: 1rem; }
+  section { margin-top: 3rem; }
+  h2 {
+    font: 500 0.75rem/1 ui-monospace, "SF Mono", Menlo, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--line);
+  }
+  ul { list-style: none; }
+  li { padding: 1.1rem 0; border-bottom: 1px solid var(--line); }
+  .item-title { font-weight: 550; }
+  .item-note { color: var(--muted); font-size: 0.975rem; margin-top: 0.15rem; }
+  .tag {
+    font: 500 0.7rem/1 ui-monospace, "SF Mono", Menlo, monospace;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    white-space: nowrap;
+    margin-left: 0.5rem;
+  }
+  a { color: inherit; text-decoration: none; }
+  a.item-link:hover .item-title { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  .links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.6rem; padding-top: 1.1rem; }
+  .links a {
+    font: 450 0.9rem/1 ui-monospace, "SF Mono", Menlo, monospace;
+    color: var(--muted);
+  }
+  .links a:hover { color: var(--ink); }
+  footer { margin-top: 4.5rem; color: var(--muted); font-size: 0.8rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Abhishek Chandwani</h1>
+  <p class="role">Co-founder, Metaphi AI</p>
+
+  <div class="intro">
+    <p>I build reinforcement-learning environments and evaluation infrastructure for long-horizon
+    enterprise agents — the systems that decide whether an agent actually did the job.
+    My work covers LLM-as-judge evaluation, programmatic verifiers, environment fidelity,
+    rubric construction, and evaluation harnesses for tool-using agents.</p>
+    <p>Before Metaphi: BCG and Shell. MBA, Harvard Business School.</p>
+  </div>
+
+  <section>
+    <h2>Research</h2>
+    <ul>
+      <li><a class="item-link" href="https://arxiv.org/abs/2603.22744">
+        <span class="item-title">LH-Bench</span><span class="tag">arXiv · 2026</span>
+        <p class="item-note">Skill-grounded evaluation of long-horizon agents on subjective enterprise
+        tasks. Expert-authored rubrics against observable task artifacts, validated against human
+        preference judgments.</p>
+      </a></li>
+      <li><a class="item-link" href="https://evals.metaphi.ai/cobolbench/blog">
+        <span class="item-title">COBOLBench</span><span class="tag">benchmark</span>
+        <p class="item-note">Verifier-backed benchmark for frontier coding agents on realistic
+        enterprise COBOL maintenance tasks — executable correctness checks over recovered
+        production estates.</p>
+      </a></li>
+      <li><a class="item-link" href="https://simhub.so/whitepaper">
+        <span class="item-title">SimHub</span><span class="tag">whitepaper</span>
+        <p class="item-note">Continual-learning and evaluation harness for agents in production:
+        traces, evaluation, feedback, and improvement loops in one system.</p>
+      </a></li>
+      <li>
+        <span class="item-title">EnterpriseSWE</span><span class="tag">forthcoming</span>
+        <p class="item-note">Enterprise software-engineering environments for agents.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Service</h2>
+    <ul>
+      <li>
+        <span class="item-title">Judge, Agent Forge Mini Hackathon</span><span class="tag">2026</span>
+        <p class="item-note">Rubric-based evaluation of agent deployment projects.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Elsewhere</h2>
+    <div class="links">
+      <a href="https://scholar.google.com/citations?user=VUkGzcIAAAAJ">google scholar</a>
+      <a href="https://openreview.net/profile?id=~Abhishek_Chandwani1">openreview</a>
+      <a href="https://metaphi.ai">metaphi.ai</a>
+      <a href="mailto:abhishek@metaphi.ai">email</a>
+    </div>
+  </section>
+
+  <footer>Abhishek Chandwani · abhishekchandwani.com</footer>
+</main>
+</body>
+</html>
