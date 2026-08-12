@@ -2,5 +2,10 @@ title: Abhishek Chandwani
 url: https://abhishekchandwani.com
 permalink: /blog/:slug/
 markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+feed:
+  path: /blog/feed.xml
 exclude:
   - README.md
