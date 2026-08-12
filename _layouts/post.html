@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }} · Abhishek Chandwani</title>
+<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111113'/%3E%3Ctext x='32' y='42' font-family='Menlo,monospace' font-size='26' fill='%23e8e6e1' text-anchor='middle'%3Eac%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<main>
+  <a class="crumb" href="/blog/">&larr; writing</a>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <p class="post-date">{{ page.date | date: "%B %Y" }}</p>
+    {{ content }}
+  </article>
+  <footer>Abhishek Chandwani · <a href="/">abhishekchandwani.com</a></footer>
+</main>
+</body>
+</html>

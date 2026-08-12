@@ -1,0 +1,6 @@
+title: Abhishek Chandwani
+url: https://abhishekchandwani.com
+permalink: /blog/:slug/
+markdown: kramdown
+exclude:
+  - README.md
