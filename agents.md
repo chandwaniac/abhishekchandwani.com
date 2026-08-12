@@ -21,6 +21,9 @@ Agent behavior analysis. Scaling agent verifiability.
 - [SimHub whitepaper](https://simhub.so/whitepaper): continual-learning and evaluation
   harness for agents in production.
 - EnterpriseSWE: enterprise software-engineering environments for agents (forthcoming).
+- [Algorithm of construction of optimum portfolio of stocks using genetic algorithm](https://doi.org/10.1007/s13198-014-0293-7):
+  with Pankaj Sinha and Tanmay Sinha. International Journal of System Assurance Engineering
+  and Management (Springer), 2015.
 
 ## Service
 
