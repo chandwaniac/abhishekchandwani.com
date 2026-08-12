@@ -15,12 +15,12 @@ Agent behavior analysis. Scaling agent verifiability.
 ## Research
 
 - EnterpriseSWE: enterprise software-engineering environments for agents (forthcoming).
+- [SimHub whitepaper](https://simhub.so/whitepaper): continual-learning and evaluation
+  harness for agents in production. August 2026.
 - [COBOLBench](https://evals.metaphi.ai/cobolbench/blog): verifier-backed benchmark for
-  frontier coding agents on realistic enterprise COBOL maintenance tasks. 2026.
+  frontier coding agents on realistic enterprise COBOL maintenance tasks. May 2026.
 - [LH-Bench](https://arxiv.org/abs/2603.22744): Skill-Grounded Evaluation of Long-Horizon
   Agents on Subjective Enterprise Tasks. Co-author, first-listed. arXiv:2603.22744, March 2026.
-- [SimHub whitepaper](https://simhub.so/whitepaper): continual-learning and evaluation
-  harness for agents in production. 2025.
 - [Algorithm of construction of optimum portfolio of stocks using genetic algorithm](https://doi.org/10.1007/s13198-014-0293-7):
   with Pankaj Sinha and Tanmay Sinha. International Journal of System Assurance Engineering
   and Management (Springer), 2015.
